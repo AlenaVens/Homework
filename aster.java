@@ -3,8 +3,8 @@ package homework;
 public class aster {
     public static void main(String[] args) {
         //задача 1
-        long sekund = 3011456_567L;
-        long age = sekund / 365 / 24 / 60 / 60;
+        long seconds = 3011456_567L;
+        long age = seconds / 365 / 24 / 60 / 60;
         System.out.println(age + (" лет"));
 
 
