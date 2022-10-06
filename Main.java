@@ -1,21 +1,24 @@
 package homework;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         //задание1
-        int a = 6;
-        int b = 5;
-        int c = 8;
-        double answer = (a + b + c) / 3f;
+        Scanner scanner = new Scanner(System.in);
+        int gradeMath = scanner.nextInt();
+        int gradeHistory = scanner.nextInt();
+        int gradeBiology = scanner.nextInt();
+        double answer= gradeMath + gradeHistory + gradeBiology/3.0;
         System.out.println("Средний балл " + answer);
 
         //задание 2
 
         boolean cold = false;
         boolean hot = true;
-        int air_temperature = 30;
-        int water_temperature = 28;
-        boolean decision = (air_temperature > 28 & water_temperature > 26);
+        int airTemperature = scanner.nextInt();
+        int waterTemperature = scanner.nextInt();
+        boolean decision = (airTemperature > 28 && waterTemperature > 26);
         System.out.println("Петя едет на море -" + decision);
     }
 }
