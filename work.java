@@ -1,15 +1,13 @@
 package homework;
 
-import java.util.Scanner;
-
 public class work {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String line = scanner.nextLine();
-        line = line.replace('A', '#');
-        line = line.replace('B', 'A');
-        line = line.replace('#', 'B');
-        System.out.println(line);
+        System.out.println("Я умею выводить строчки ");
+        System.out.println("Я начал программировать ");
+        System.out.println( 67 / 4 );
+        System.out.println(45.0 / 2 );
+        System.out.println(1234 * 1234);
+        System.out.println(123456 % 10);
 
-    }
+}
 }
